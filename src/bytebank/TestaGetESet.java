@@ -9,6 +9,9 @@ public class TestaGetESet {
 		conta.setNumero(1337);
 		System.out.println(conta.getNumero());
 		
+		conta.setAgencia(123);
+		System.out.println(conta.getAgencia());
+		
 		
 	}
 
