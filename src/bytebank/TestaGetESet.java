@@ -16,6 +16,9 @@ public class TestaGetESet {
 		paulo.setNome("paulo silveira");
 				
 		conta.setTitular(paulo);
+		conta.deposita(500);
+		conta.saca(100);
+		System.out.println(conta.getSaldo());
 		
 		
 	}
