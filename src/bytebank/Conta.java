@@ -3,9 +3,9 @@ package bytebank;
 public class Conta {
 
 	private double saldo;
-	int agencia;
-	int numero;
-	Cliente titular;
+	private int agencia;
+	private int numero;
+	private Cliente titular;
 	
 	public void deposita(double valor) {
 		this.saldo += valor;

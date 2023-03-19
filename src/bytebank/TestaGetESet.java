@@ -12,6 +12,11 @@ public class TestaGetESet {
 		conta.setAgencia(123);
 		System.out.println(conta.getAgencia());
 		
+		Cliente paulo = new Cliente();
+		paulo.setNome("paulo silveira");
+				
+		conta.setTitular(paulo);
+		
 		
 	}
 
